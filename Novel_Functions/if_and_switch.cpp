@@ -123,10 +123,10 @@ int main() {
     /*++++++++++++++++++++++++++ exit code 반환하는 window의 kernel API function +++++++++++++++++++++++++++*/
     // 주어진 핸들이 유용한 경우에만 해당 프로세스 핸들의 exit 코드를 반환
     if (DWORD exit_code; GetExitCodeProcess(process_handle, &exit_code)) {
-
+        
         std::cout << "Exit code of process was: " << exit_code << '\n';
     }
         // if 조건문 외부에서는 exit_code 변수가 사용되지 않는다
-    ㅊ
+    
     return 0;
 }
