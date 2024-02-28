@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Structure_Binding.cpp">
+    <ClCompile Include="Structured_Binding.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
